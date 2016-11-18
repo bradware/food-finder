@@ -6,7 +6,7 @@ var yelp = require('yelp');
 var app = express();
 
 // Constants
-var port = 8000;
+var port = process.env.PORT || 8000;
 var consumer_key = 'dMy7osovALGZw-wy-P3P7g';
 var consumer_secret = 'XSBYeVIvXv7gtAvHGqH9W08W-0w';
 var token = 'qCX0ddXOnXGngJHcJpT16QyD6WFDqOpj';
