@@ -1,0 +1,23 @@
+{
+  "name": "FoodFinder",
+  "version": "1.0.0",
+  "description": "Web app to find cool places to eat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradware/food-finder.git"
+  },
+  "author": "Brad Ware",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradware/food-finder/issues"
+  },
+  "homepage": "https://github.com/bradware/food-finder#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "yelp": "^1.0.1"
+  }
+}

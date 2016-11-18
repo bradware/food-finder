@@ -1,0 +1,22 @@
+{
+  "name": "FoodFinder",
+  "homepage": "https://github.com/bradware/food-finder",
+  "authors": [
+    "Brad Ware bwarenohs@gmail.com"
+  ],
+  "description": "Web app to find cool places to eat",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
