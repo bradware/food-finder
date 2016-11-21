@@ -1,5 +1,5 @@
 # FoodFinder
-Web application tool to find your next meal.
+Web application tool to find your next meal. Deployed at [foodfinder.bradware.com](//devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
 
 For more technical documentation check out `FoodFinder.pdf`
 
@@ -12,6 +12,7 @@ For more technical documentation check out `FoodFinder.pdf`
 * [Font Awesome](//fontawesome.io)
 * [jQuery 2.x](//code.jquery.com)
 * [Yelp Search API](//www.yelp.com/developers/documentation/v2/search_api)
+* [Heroku](//devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
 
 ## Getting Started
 * download [Node.js](//nodejs.org/en/download/) or `brew install node`
