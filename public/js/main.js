@@ -166,6 +166,7 @@ function handleSearchEvents() {
           callback('&ll='+ pos.coords.latitude + ',' + pos.coords.longitude);
         }, 
         function(error) {
+          console.log(error);
           alert('Unable to retrieve your location!');
         },
         { timeout: 10 * 1000 }
