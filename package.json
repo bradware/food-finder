@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "bower cache clean && cd public && bower install"
+    "postinstall": "bower cache clean && bower install ./public"
   },
   "repository": {
     "type": "git",
