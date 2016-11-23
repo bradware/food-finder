@@ -15,6 +15,7 @@
     "test",
     "tests"
   ],
+  "directory" : "public/bower_components",
   "dependencies": {
     "bootstrap": "^3.3.6",
     "font-awesome": "fontawesome#^4.6.3"
