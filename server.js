@@ -32,10 +32,10 @@ var yelpApi = new yelp({
 */
 app.get('/search', function (req, res) {
   yelpApi.search(req.query)
-	.then(function(data) {
-	  res.send(data);
-	})
-	.catch(function(err) {
-    res.status(err.statusCode).send(err.data);
-	});
+    .then(function(data) {
+      res.send(data);
+    })
+    .catch(function(err) {
+      res.status(err.statusCode).send(err.data);
+    });
 });
