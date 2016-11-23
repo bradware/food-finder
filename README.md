@@ -16,7 +16,9 @@ For more technical documentation check out `FoodFinder.pdf`
 
 ## Getting Started
 * download [Node.js](//nodejs.org/en/download/) or `brew install node`
-* download and decompress `food-finder.zip`
+* `git clone https://github.com/bradware/food-finder.git`
 * `cd food-finder`
-* `node server.js`
+* `npm install`
+* `bower install`
+* `npm start`
 * visit `localhost:8000` in your browser
