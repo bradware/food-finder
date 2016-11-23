@@ -13,7 +13,7 @@ var token = 'qCX0ddXOnXGngJHcJpT16QyD6WFDqOpj';
 var token_secret = 'ETPHr-bOb3dU6twK3fLhOGnf5QI';
 
 // Makes static assets available and starts server listening on port
-app.use(express.static('static'));
+app.use(express.static('public'));
 app.listen(port);
 
 // Initializes Yelp API connection
