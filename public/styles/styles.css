@@ -4,14 +4,10 @@
 html {
   min-height: 100%;
   position: relative;
-  overflow-x: hidden;
-  cursor: pointer; /* For mobile touch */
 }
 body {
   font-family: 'Lato', sans-serif;
   margin-bottom: 80px;  /* margin bottom should equal footer height */
-  overflow-x: hidden;
-  cursor: pointer; /* For mobile touch */
 }
 h2 {
   margin-top: 10px;
@@ -82,6 +78,7 @@ h3 {
   margin-left: 5px;
 }
 #radius-filter {
+  font-size: 16px;
   min-width: 110px;
 }
 #tooltip {
@@ -189,7 +186,8 @@ h3 {
 */
 @media screen and (max-width: 992px) {
   html, body {
-    overflow-x:hidden 
+    cursor: pointer; /* For mobile touch */
+    overflow-x: hidden;
   }
 }
 
