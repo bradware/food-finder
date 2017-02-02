@@ -189,6 +189,10 @@ h3 {
     cursor: pointer; /* For mobile touch */
     overflow-x: hidden;
   }
+
+  input[type=checkbox] {
+    margin-top: 2px;
+  }
 }
 
 @media screen and (max-width: 760px) {
