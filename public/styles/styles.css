@@ -189,10 +189,6 @@ h3 {
     cursor: pointer; /* For mobile touch */
     overflow-x: hidden;
   }
-
-  input[type=checkbox] {
-    margin-top: 2px;
-  }
 }
 
 @media screen and (max-width: 760px) {
@@ -211,6 +207,9 @@ h3 {
 @media screen and (max-width: 600px) {
   .checkbox-inline {
     margin-left: 10px;
+  }
+  input[type=checkbox] {
+    margin-top: 2px;
   }
 }
 
